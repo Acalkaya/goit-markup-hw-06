@@ -928,7 +928,7 @@ MODAL PENCERE */
   .img-text {
     width: 258px;
   }
-  .container {
+  .footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -936,30 +936,33 @@ MODAL PENCERE */
     gap: 72px;
     text-align: center;
   }
-  .text {
+
+  .footer-content {
     text-align: left;
   }
-  .social-container  {
+  .socialmedia {
     text-align: center;
   }
-  .inputs-position {
+  .footer-form {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .form-data {
+
+  .subscribe-modal {
     margin-left: 0px;
     align-items: center;
     text-align: center;
   }
-  .social-container {
+
+  .social-media {
     margin-left: 0px;
     text-align: center;
   }
-  .subscribe-email-label {
+  .subscribe-label {
     text-align: center;
   }
-  .form-btn {
+  .subs-button {
     margin-top: 16px;
   }
 }
