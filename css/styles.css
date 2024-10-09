@@ -838,16 +838,13 @@ MODAL PENCERE */
 }
 
 /* Tablet */
-@media screen and (max-width:1158px) {
+@media screen (min-width:320px)and (max-width: 1158px; ) {
   .header__container container {
     display: flex;
   }
-
-  @media screen and (min-width: 320px; ) {
     body {
       display: flex;
     }
-  }
 }
 
 .header__container {
@@ -962,4 +959,128 @@ MODAL PENCERE */
 
 .form-data {
   display: none;
+}
+@media (min-width: 320px) and (max-width: 1158px) {
+  
+  .header__container container {
+    display: flex;
+  }
+    body {
+      display: flex;
+    }
+}
+
+.header__container {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__nav {
+  display: block;
+}
+
+.page-logo-title {
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: block;
+}
+
+.contact-list__list-item {
+  display: block;
+}
+
+.link {
+  margin: 0 auto;
+}
+.container{
+  display: block;
+  flex-direction: column;
+}.first-section {
+  display: block;
+  width: 320px;
+  height: 432px;
+  text-align: left;
+}
+.first-section__title h1 {
+  display: block;
+  text-align: left;  
+}
+
+.contact-list__list-item a{
+  margin: 0 auto;
+  
+}
+
+.second-section {
+  padding-bottom: 0px;
+}
+.third-section__title{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+.member-name{
+  display: flex;
+  flex-direction: column;
+}
+.second-section__list {
+  display: flex;
+  flex-direction: column;
+  height: 696px;
+  width: 100%;
+  gap: 72px;
+}
+.third-section__list{
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+.forth-section__title {
+  text-align: left;
+}
+.forth-section__list {
+  display: flex;
+  flex-direction: column;
+  column-gap: 24px;
+}
+.list-item img {
+  width: 280px;
+}
+.list-item li {
+  width: 280px;
+  height: 353px;
+}
+.img-text {
+  width: 258px;
+}
+.subcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
+.text {
+  text-align: left;
+}
+
+.form-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe-container {
+  margin-left: 0px;
+}
+
+.form-btn {
+  margin-top: 16px;
+}
+
+.form-data {
+  display: none;
+  
 }
