@@ -838,7 +838,7 @@ MODAL PENCERE */
 }
 
 /* Tablet */
-@media screen and (max-width:320px) {
+@media screen and (max-width:1158px) {
   .header__container container {
     display: flex;
   }
