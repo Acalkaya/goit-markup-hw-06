@@ -841,6 +841,7 @@ MODAL PENCERE */
   .header__container {
     padding: 0;
     display: flex;
+    flex-direction: column;
   }
 }
 .header__nav {
@@ -881,6 +882,7 @@ MODAL PENCERE */
     height: 696px;
     width: 100%;
     gap: 72px;
+    
 }
 .second-section__list-item svg {
    visibility: hidden;
@@ -944,6 +946,7 @@ MODAL PENCERE */
     .header__container {
       padding: 0;
       display: flex;
+      flex-direction: column;
     } 
   }
   .header__nav {
@@ -1047,6 +1050,7 @@ MODAL PENCERE */
       .header__container {
         padding: 0;
         display: flex;
+        flex-direction: column;
       } 
     }
     .header__nav {
